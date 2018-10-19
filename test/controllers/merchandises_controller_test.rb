@@ -5,19 +5,18 @@ class MerchandisesControllerTest < ActionController::TestCase
     @merchandise = merchandises(:one)
   end
 
-  test "should get index" do
+  test "should index" do
     get :index
     assert_response :success
     #assert_not_nil assigns(:merchandises)
   end
-
 
   test "should get new" do
     sign_in users(:one)
     get :new
     assert_response :success
   end
-
+  
   test 'should get new with merchandise id' do
     sign_in users(:one)
     get :new , params: { id: @merchandise.id }
@@ -49,5 +48,4 @@ class MerchandisesControllerTest < ActionController::TestCase
     #assert_redirected_to merchandise_path(assigns(:merchandise))
     assert_response :success
   end
-
 end

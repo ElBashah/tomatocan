@@ -60,7 +60,7 @@ class MerchandisesController < ApplicationController
     end
 
     def merchandise_params
-      params.require(:merchandise).permit(:name, :user_id, :price, :desc, :itempic, :rttoeditphase,
+  params.require(:merchandise).permit(:name, :user_id, :price, :desc, :itempic, :rttoeditphase,
        :goal, :deadline, :youtube, :podcast, :video, :graphic, :bookmobi, :bookepub, :bookpdf)
     end
 

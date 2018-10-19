@@ -214,4 +214,9 @@ at the command line to start the server.
 
 And it's good to refer to Michael Hartl's tutorial for a lot of Rails help http://railstutorial.org/book
 
+
+Testing Tutorial:
+
+https://guides.rubyonrails.org/testing.html
+
 Copyright &copy; 2018, RoleModel Enterprises, LLC. All rights reserved.
